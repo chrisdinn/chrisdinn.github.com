@@ -1,0 +1,563 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>brando - brando</title>
+          <meta name="description" content="brando - brando" />
+          <meta name="keywords" content="brando brando" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../lib/template.js"></script>
+      <script type="text/javascript" src="../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../index.html';
+            var hash = 'brando.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../lib/package_big.png" />
+        
+        <h1>brando</h1> <span class="permalink">
+      <a href="../index.html#brando.package" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">brando</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="brando.Batch" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BatchextendsProductwithSerializable"></a>
+      <a id="Batch:Batch"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Batch.html"><span class="name">Batch</span></a><span class="params">(<span name="requests">requests: <a href="Request.html" class="extype" name="brando.Request">Request</a>*</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@BatchextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Brando" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BrandoextendsActorwithStash"></a>
+      <a id="Brando:Brando"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Brando.html"><span class="name">Brando</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.Stash">Stash</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@BrandoextendsActorwithStash" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.BrandoException" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BrandoExceptionextendsException"></a>
+      <a id="BrandoException:BrandoException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="BrandoException.html"><span class="name">BrandoException</span></a><span class="result"> extends <span class="extype" name="scala.Exception">Exception</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@BrandoExceptionextendsException" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.BrandoStateChange" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BrandoStateChangeextendsAnyRef"></a>
+      <a id="BrandoStateChange:BrandoStateChange"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="BrandoStateChange.html"><span class="name">BrandoStateChange</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@BrandoStateChangeextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.BroadcastRequest" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BroadcastRequestextendsProductwithSerializable"></a>
+      <a id="BroadcastRequest:BroadcastRequest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="BroadcastRequest.html"><span class="name">BroadcastRequest</span></a><span class="params">(<span name="command">command: <span class="extype" name="akka.util.ByteString">ByteString</span></span>, <span name="params">params: <span class="extype" name="akka.util.ByteString">ByteString</span>*</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@BroadcastRequestextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.HealthMonitor" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="HealthMonitorextendsShardManager"></a>
+      <a id="HealthMonitor:HealthMonitor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="HealthMonitor.html"><span class="name">HealthMonitor</span></a><span class="result"> extends <a href="ShardManager.html" class="extype" name="brando.ShardManager">ShardManager</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@HealthMonitorextendsShardManager" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.PubSubMessage" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PubSubMessageextendsProductwithSerializable"></a>
+      <a id="PubSubMessage:PubSubMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PubSubMessage.html"><span class="name">PubSubMessage</span></a><span class="params">(<span name="channel">channel: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="message">message: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@PubSubMessageextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Request" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RequestextendsProductwithSerializable"></a>
+      <a id="Request:Request"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Request.html"><span class="name">Request</span></a><span class="params">(<span name="command">command: <span class="extype" name="akka.util.ByteString">ByteString</span></span>, <span name="params">params: <span class="extype" name="akka.util.ByteString">ByteString</span>*</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@RequestextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Shard" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ShardextendsProductwithSerializable"></a>
+      <a id="Shard:Shard"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Shard.html"><span class="name">Shard</span></a><span class="params">(<span name="id">id: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="host">host: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="port">port: <span class="extype" name="scala.Int">Int</span></span>, <span name="database">database: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Int">Int</span>] = <span class="symbol">None</span></span>, <span name="auth">auth: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@ShardextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.ShardManager" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ShardManagerextendsActor"></a>
+      <a id="ShardManager:ShardManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ShardManager.html"><span class="name">ShardManager</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@ShardManagerextendsActor" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.ShardStateChange" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ShardStateChangeextendsProductwithSerializable"></a>
+      <a id="ShardStateChange:ShardStateChange"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ShardStateChange.html"><span class="name">ShardStateChange</span></a><span class="params">(<span name="shard">shard: <a href="Shard.html" class="extype" name="brando.Shard">Shard</a></span>, <span name="state">state: <a href="BrandoStateChange.html" class="extype" name="brando.BrandoStateChange">BrandoStateChange</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@ShardStateChangeextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.StatusReply" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StatusReplyextendsAnyRef"></a>
+      <a id="StatusReply:StatusReply"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="StatusReply.html"><span class="name">StatusReply</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@StatusReplyextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="brando.AuthenticationFailed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AuthenticationFailed"></a>
+      <a id="AuthenticationFailed:AuthenticationFailed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="AuthenticationFailed$.html"><span class="name">AuthenticationFailed</span></a><span class="result"> extends <a href="BrandoStateChange.html" class="extype" name="brando.BrandoStateChange">BrandoStateChange</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@AuthenticationFailed" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Brando" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Brando"></a>
+      <a id="Brando:Brando"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Brando$.html"><span class="name">Brando</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Brando" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.BroadcastRequest" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BroadcastRequest"></a>
+      <a id="BroadcastRequest:BroadcastRequest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BroadcastRequest$.html"><span class="name">BroadcastRequest</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@BroadcastRequest" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Connected" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Connected"></a>
+      <a id="Connected:Connected"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Connected$.html"><span class="name">Connected</span></a><span class="result"> extends <a href="BrandoStateChange.html" class="extype" name="brando.BrandoStateChange">BrandoStateChange</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Connected" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.ConnectionFailed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ConnectionFailed"></a>
+      <a id="ConnectionFailed:ConnectionFailed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ConnectionFailed$.html"><span class="name">ConnectionFailed</span></a><span class="result"> extends <a href="BrandoStateChange.html" class="extype" name="brando.BrandoStateChange">BrandoStateChange</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@ConnectionFailed" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Disconnected" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Disconnected"></a>
+      <a id="Disconnected:Disconnected"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Disconnected$.html"><span class="name">Disconnected</span></a><span class="result"> extends <a href="BrandoStateChange.html" class="extype" name="brando.BrandoStateChange">BrandoStateChange</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Disconnected" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.HashRequest" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="HashRequest"></a>
+      <a id="HashRequest:HashRequest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="HashRequest$.html"><span class="name">HashRequest</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@HashRequest" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.NonRespondingShardRestarted" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NonRespondingShardRestarted"></a>
+      <a id="NonRespondingShardRestarted:NonRespondingShardRestarted"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NonRespondingShardRestarted$.html"><span class="name">NonRespondingShardRestarted</span></a><span class="result"> extends <a href="BrandoStateChange.html" class="extype" name="brando.BrandoStateChange">BrandoStateChange</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@NonRespondingShardRestarted" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Ok" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Ok"></a>
+      <a id="Ok:Ok"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Ok$.html"><span class="name">Ok</span></a><span class="result"> extends <a href="StatusReply.html" class="extype" name="brando.StatusReply">StatusReply</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Ok" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Pong" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Pong"></a>
+      <a id="Pong:Pong"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Pong$.html"><span class="name">Pong</span></a><span class="result"> extends <a href="StatusReply.html" class="extype" name="brando.StatusReply">StatusReply</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Pong" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Queued" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Queued"></a>
+      <a id="Queued:Queued"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Queued$.html"><span class="name">Queued</span></a><span class="result"> extends <a href="StatusReply.html" class="extype" name="brando.StatusReply">StatusReply</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Queued" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Request" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Request"></a>
+      <a id="Request:Request"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Request$.html"><span class="name">Request</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Request" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.Response" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Response"></a>
+      <a id="Response:Response"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Response$.html"><span class="name">Response</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@Response" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.ShardManager" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ShardManager"></a>
+      <a id="ShardManager:ShardManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ShardManager$.html"><span class="name">ShardManager</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@ShardManager" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="brando.ValueType" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ValueType"></a>
+      <a id="ValueType:ValueType"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ValueType$.html"><span class="name">ValueType</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#brando.package@ValueType" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
